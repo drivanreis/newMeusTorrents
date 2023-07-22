@@ -1,0 +1,50 @@
+html, body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header, footer{
+    text-align: center;
+}
+
+section{
+    padding: 0.25em;
+    text-align: center;
+}
+
+h1{
+    font-size:500%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p{
+    color: yellow;
+    font-size: 120%;
+    margin-top: 0;
+}
+
+div{
+    position: relative;
+    display: inline-block;
+    width: 24%;
+}
+
+img{
+    width: 100%;
+}
+
+figcaption{
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    left: 3px;
+    width: 98%;
+    font-size: 1.2em;
+    background-color: transparent;
+    border-radius: 7px;
+    color: transparent;
+}
